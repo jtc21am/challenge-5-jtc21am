@@ -38,7 +38,7 @@ def favorite_activities():
     # Each time through this new loop, use the index number to index into each of your lists for the data
     # you need to print out.
     for day in range(len(days)):
-        print(f'On {day}s, your favorite activity is to {user_activities[day]}.')    
+        print(f'On {days[day]}s, your favorite activity is to {user_activities[day]}.')    
 
 
 '''
